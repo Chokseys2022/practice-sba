@@ -85,8 +85,7 @@ function getLearnerData (CourseInfo, AssignmentGroup,LearnerSubmissions){
 }
 
 // Validate if course id belongs to the specified course
-if (AssignmentGroup,course_id !==course_id){
+if (AssignmentGroup.id !==CourseInfo.id){
     throw new Error ("Input is invalid - course id does not match")
 }
-
 
