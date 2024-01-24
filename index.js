@@ -75,7 +75,7 @@ const CourseInfo = {
         score: 140
       }
     }
-  ];
+  
 /********************
  ADDING FUNCTIONS HERE
  *********************/
@@ -85,7 +85,22 @@ function getLearnerData (CourseInfo, AssignmentGroup,LearnerSubmissions){
 }
 
 // Validate if course id belongs to the specified course
-if (AssignmentGroup.id !==CourseInfo.id){
-    throw new Error ("Input is invalid - course id does not match")
+if (AssignmentGroup.course_id !== CourseInfo.id) {
+throw new Error("Input is invalid - course id does not match");
 }
+
+
+// Check if score and possible points are 0 or a string
+function calPercentScore(score, points_possible) {
+try {
+if (points_possible === 0) {
+throw new Error("Error: 0 points are not possible");}}
+
+if (typeof score !== 'number' || typeof points_possible !== 'number') {
+throw new TypeError("Error: Both points_achieved and points_possible must be numbers");}
+
+catch (error) {console.error(error.message);
+      return null;
+}
+
 
