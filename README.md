@@ -29,10 +29,12 @@ score
 <h2>What is Required</h2>
 For each learner, the following information needs to be calculated:
 
-<h3>learner_id</h3>
-Average score
-Score for Assignment 1
-Score for Assignment 2
+<ul>
+<li>learner_id</li>
+<li>Average score</li>
+<li>Score for Assignment 1</li>
+<li>Score for Assignment 2</li>
+</ul>
 
 <h2>Notes</h2>
 Late submissions are penalized by deducting 10 percent of the assignment's points possible.
