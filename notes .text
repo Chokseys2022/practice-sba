@@ -1,0 +1,31 @@
+Course Information - what we have:
+
+CourseInfo 
+id
+name
+
+AssignmentGroup 
+id
+name
+course_id
+group_weight
+
+assignments 
+id 
+name
+due_at
+points_possible
+
+LearnerSubmissions
+learner_id
+assignment_id
+submission
+submitted_at
+score
+
+What we need:
+learner_id
+average
+score for assignment 1
+score for assignment 2
+
