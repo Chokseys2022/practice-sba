@@ -4,31 +4,38 @@
 This repository contains functions designed to analyze learner submissions, calculate average scores, and handle late submissions with penalties within a course. The code is structured around key components of course information, assignment groups, assignments, and learner submissions.
 
 <h2>Course Information</h2>
-id
-name
+<ul>
+<li>id</li>
+<li>name</li>
+</ul>
 
 <h3>Assignment Group:</h3>
-AssignmentGroup id
-name
-course_id
-group_weight
+<ul>
+<li>AssignmentGroup id</li>
+<li>name</li>
+<li>course_id</li>
+<li>group_weight</li>
+</ul>
 
 <h3>Assignments:</h3>
-id
-name
-due_at
-points_possible
+<ul>
+<li>id</li>
+<li>name</li>
+<li>due_at</li>
+<li>points possible<li>
+</ul>
 
 <h3>Learner Submissions:</h3>
-learner_id
-assignment_id
-submission
-submitted_at
-score
+<ul>
+<li>learner_id</li>
+<li>assignment_id</li>
+<li>submission</li>
+<li>submitted_at<li>
+<li>score</li>
+</ul>
 
-<h2>What is Required</h2>
+<h2>Requirements</h2>
 For each learner, the following information needs to be calculated:
-
 <ul>
 <li>learner_id</li>
 <li>Average score</li>
