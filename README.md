@@ -1,7 +1,7 @@
 <h1>Skill Based Assessment for JavaScript Fundamentals:</h1>
 
-<h2>Overview
-This repository contains functions designed to analyze learner submissions, calculate average scores, and handle late submissions with penalties within a course. The code is structured around key components of course information, assignment groups, assignments, and learner submissions.</h2>
+<h2>Overview</h2>
+This repository contains functions designed to analyze learner submissions, calculate average scores, and handle late submissions with penalties within a course. The code is structured around key components of course information, assignment groups, assignments, and learner submissions.
 
 <h2>Course Information</h2>
 id
