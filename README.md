@@ -1,28 +1,24 @@
 <h1>Skill Based Assessment for JavaScript Fundamentals:</h1>
 
-<h2>Code Structure</h2>
-Course Information:
+<h2>Course Information</h2>
 
 <h2>CourseInfo</h2>
 id
 name
-Assignment Group:
 
-AssignmentGroup
-id
+<h3>Assignment Group:</h3>
+AssignmentGroup id
 name
 course_id
 group_weight
-Assignments:
 
-Assignments
+<h3>Assignments:</h3>
 id
 name
 due_at
 points_possible
-Learner Submissions:
 
-LearnerSubmissions
+<h3>Learner Submissions:</h3>
 learner_id
 assignment_id
 submission
@@ -32,7 +28,7 @@ score
 <h2>What is Required</h2>
 For each learner, the following information needs to be calculated:
 
-learner_id
+<h3>learner_id</h3>
 Average score
 Score for Assignment 1
 Score for Assignment 2
